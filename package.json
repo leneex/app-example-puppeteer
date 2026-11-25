@@ -1,0 +1,12 @@
+{
+  "name": "app-example-puppeteer",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "puppeteer browsers install chrome",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "puppeteer": "^25.18.1"
+  }
+}
